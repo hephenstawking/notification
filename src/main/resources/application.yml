@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/notification
+    username: bestuser
+    password: bestuser
