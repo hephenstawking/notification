@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public interface TemplateRepo extends JpaRepository<NotificationTemplate, Integer> {
 
-    @Query("SELECT t FROM NotificationTemplate t WHERE t.is_active = 1 AND module = ?1")
-    List<NotificationTemplate> getTemplatesByModule(String module);
+    @Query("SELECT t FROM NotificationTemplate t WHERE t.isActive = 1 AND module = ?1")
+    List<NotificationTemplate> getActiveTemplatesByModule(String module);
 
 }

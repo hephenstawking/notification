@@ -11,10 +11,10 @@ public class NotificationTemplate {
 
     @Id
     private int id;
-    private String template_name;
-    private String template_text;
+    private String templateName;
+    private String templateText;
     private String module;
-    private Boolean is_active;
-    private String external_name;
+    private Boolean isActive;
+    private String externalName;
 
 }
